@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '23171051'))
 API_HASH = environ.get('API_HASH', '10331d5d712364f57ffdd23417f4513c')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6780450992:AAGISeHLt1XtHl0aGVMxGV_rl_1-R2afqfs")
+BOT_TOKEN = environ.get('BOT_TOKEN', "6101719657:AAGE4JKsAE0JKt69wLU9Kq2zYO7-Tt1xvTk")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 99999))
@@ -44,7 +44,7 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", True))
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Kausal:kausal@cluster0.ftzlpbv.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Kusal bot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
